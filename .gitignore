@@ -1,0 +1,69 @@
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Eclipse specific files
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.localhistory
+# Exclude Eclipse project files
+*.project
+*.classpath
+*.cproject
+.settings/
+
+# Java specific files
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Temporary files
+*.tmp
+*.log
+*.out
+*.cache
+*.diff
+
+# Generated files
+/bin/
+gen/
+# Web application specific files and directories
+/target/
+/out/
+/build/
+
+# Ignore specific IDE and build tool directories/files
+.classpath
+.project
+.settings/
+.loadpath
+
+# Ignore Web Content specific files
+/WebContent/WEB-INF/classes/
+/WebContent/WEB-INF/lib/
+/WebContent/WEB-INF/web.xml
+
+# Ignore temporary files, logs, etc.
+/tmp/
+*.log
+
+# Ignore other IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Include necessary directories and files
+!src/
+!WebContent/
+!pom.xml
